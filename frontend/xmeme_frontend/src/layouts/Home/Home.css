@@ -1,0 +1,22 @@
+.media-container{
+    position: relative;
+    height: 293px;
+    width: 100%;
+    overflow: hidden; 
+
+} 
+.MuiCardMedia-root {
+    position: absolute;
+    background-size: cover !important;
+    height: 100% !important; 
+    width: 100% !important; 
+}
+
+@media (min-width: 960px){
+.MuiContainer-maxWidthMd {
+    max-width: 1080px !important;
+}
+}
+
+
+
